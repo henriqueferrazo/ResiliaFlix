@@ -1,0 +1,66 @@
+#img{
+    text-align: center;
+    padding-top: 130px;
+}
+#texto{
+    text-align: center;
+    font-family:'DM Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -2px;
+    font-size: 18px;
+    
+}
+#btns{
+    text-align: center;
+    
+}
+.text{
+    border: none;
+    width: 375px;
+    height: 55px;
+    color: rgba(182, 179, 179, 0.89);
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    background: rgba(12, 12, 12, 0.726);
+    border-radius: 0.4em;
+    padding: 5px;
+
+}
+#pe{
+    background: rgb(19, 18, 18);
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+#logoPe{
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+}
+#pPe{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.box-form {
+    margin:auto;
+    padding-top: 180px;
+}
+#btnEntrar:hover{
+    background-color:  #ffd104;
+    color: #000;
+}
+#btnEntrar{
+    width: 375px;
+    font-weight: bold;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    background:#03fcff;
+    border: none;
+    border-radius: 0.2em;
+    transition: 0.3s;
+}
