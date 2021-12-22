@@ -64,3 +64,23 @@
     border-radius: 0.2em;
     transition: 0.3s;
 }
+#checkboxid{
+    text-align: center;
+    color: white;
+    font-family:'DM Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    
+}
+#checkboxcll{
+    border: none;
+    width: 13px;
+    height: 13px;
+    color: rgba(182, 179, 179, 0.89);
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    background: rgba(12, 12, 12, 0.726);
+    border-radius: 0.4em;
+    padding: 5px;
+}
