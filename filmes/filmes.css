@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 9px solid #03fcff;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.header_logo {
+    margin-top: 25px;
+    
+}
+
+.texto {
+    padding-top: 10%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747)
+}
+
+.categorias {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    background-color:#03fbff94;
+    width: 13%;
+    height: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+#todosFilmes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-family:monospace;
+    
+
+}
+
+.card {
+    
+    border-radius: 20px;
+    text-align: center;
+    margin: 2vh;
+    
+}
+
+.img {
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    margin-top: 3%;
+    
+}
+
+.nomeFilme {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+
+.categorias:hover {
+    border-radius: 0px;
+    color:black;
+    transition: 1s;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+#pe{
+    background: rgb(19, 18, 18);
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+
+#logoPe{
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+}
+#pPe{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+}
