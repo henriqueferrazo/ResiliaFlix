@@ -14,7 +14,19 @@ body {
 }
 .bnt {
     display: flex;
-    margin-left: 330px;
+    padding-left: 300px;
+}
+.error{
+    font-size: 12px;
+    color: crimson;
+    text-align: center;
+    font-family:'Lato', sans-serif;;
+}
+.error:focus{
+    outline: none;
+}
+.error:focus:invalid{
+    box-shadow: none;
 }
 .home a{
     text-decoration: none;
@@ -90,6 +102,10 @@ body {
     border-radius: 0.4em;
     padding: 5px;
 
+}
+.text:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
 }
 #pe{
     background: rgb(19, 18, 18);

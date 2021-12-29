@@ -8,8 +8,6 @@
     <title>RESILIAFLIX - Inscreva-se</title>
     <link href="https: //fonts.googleapis.com/css2? family = DM + Mono: wght @ 300 & display = swap "
         rel=" stylesheet ">
-    <link href="https: //fonts.googleapis.com/css2? family = DM + Mono: wght @ 300 & display = swap "
-        rel=" stylesheet ">
     <link rel="stylesheet" href="inscricao.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -35,10 +33,13 @@
             <h2 id="h6BOL">Use seu e-mail para entrar</h2>
         </div>
         <div id="btns">
-            <input class="text" type="email" name="email" placeholder="E-mail"><br><br>
+            <p class="error"></p>
+            <input class="text" type="email" name="email" onblur="validaEmail()"  placeholder="E-mail" required><br><br>
             <input class="checkboxcll" type="checkbox" name="box"> <label id="checkboxid">Aceito recerber novidades por
-                e-mail</label><br><br><br><br>
-            <button id="btnEntrar">Entrar</button><br><br>
+                e-mail</label>
+                <br><br><br><br>
+            <input type="button" id="btnEntrar" onclick="entrarEmail()" value="Entrar">
+            <br><br>
         </div>
     </section>
     <footer id="pe">
@@ -48,7 +49,7 @@
             Rodrigo.</p>
         <p class="pPe">&copy; G6T10M2 RESILIA</p>
     </footer> 
-    
+    <script src="inscricao.js"></script>
 </body>
 
 </html>

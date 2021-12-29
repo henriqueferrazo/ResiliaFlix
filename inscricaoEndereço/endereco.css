@@ -24,29 +24,29 @@ body{
     padding: 5px;
 
 }
-#nome{
+#cep{
     width: 375px;
     height: 55px;
     margin-left: 50px;
 }
-#sobrnome{
+#endereco{
     width: 550px;
     height: 55px;
     margin-left: 80px;
 }
-#senha{
+#numero{
     margin-left: 50px;
 }
-#conf-senha{
+#complemento{
     margin-left: 80px;
 }
-#idade{
+#bairro{
     margin-left: 50px;
 }
-#celular{
+#cidade{
     width: 550px;
     height: 55px;
-    margin-top: 33px;
+
     margin-left: 80px;
 }
 .texto{
