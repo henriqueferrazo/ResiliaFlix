@@ -75,6 +75,7 @@ body{
     text-align: center;
     flex-shrink: 0;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 #logoPe{
     padding-top: 10px;
