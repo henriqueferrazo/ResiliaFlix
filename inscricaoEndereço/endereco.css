@@ -37,8 +37,15 @@ body{
 #numero{
     margin-left: 50px;
 }
-#complemento{
+#estado{
+    width: 550px;
+    height: 55px;
     margin-left: 80px;
+}
+#complemento{
+    width: 955px;
+    height: 130px;
+    margin-left: 50px;
 }
 #bairro{
     margin-left: 50px;
@@ -46,7 +53,6 @@ body{
 #cidade{
     width: 550px;
     height: 55px;
-
     margin-left: 80px;
 }
 .texto{

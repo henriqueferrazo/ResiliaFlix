@@ -1,3 +1,29 @@
-jQuery.validator.addMethod("cep", function(value, element) {
-  return this.optional(element) || /^[0-9]{5}-[0-9]{3}$/.test(value);
-}, "Por favor, digite um CEP válido");
+
+$(function(){
+    const $textCep = $('#cep');
+    const $textEndereco = $('#endereco');
+    const $textBairro = $('#bairro');
+    const $textCidade = $('#cidade');
+    const $textEstado = $('#estado');
+
+   $textCep.on('change', function(){
+    
+    const valorCep = $textCep.val();
+    const url = `https://viacep.com.br/ws/${valorCep}/json/`;
+
+    $.get({
+        url : url
+    }).done(function(valor){
+        
+        $textCep.val(valor.cep);
+        $textEndereco.val(valor.logradouro);
+        $textBairro.val(valor.bairro);
+        $textCidade.val(valor.localidade);
+        $textEstado.val(valor.uf);
+
+    });
+
+
+});
+
+});
