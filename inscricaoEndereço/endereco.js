@@ -1,4 +1,5 @@
-$(function () {
+
+    $(function () {
   const $textCep = $("#cep");
   const $textEndereco = $("#endereco");
   const $textBairro = $("#bairro");
@@ -20,6 +21,7 @@ $(function () {
     });
   });
 });
+
 
 const entrar = document.getElementById("btnEntrar");
 entrar.addEventListener("click", (event) => {
@@ -132,6 +134,7 @@ entrar.addEventListener("click", (event) => {
     const elementoPai7 = document.querySelector('.cidade');
     const elementoPai8 = document.querySelector('.checkbox');
     const elementoPai9 = document.querySelector('.termos');
+    const elementoPai10 = document.querySelector('.btaoEnviar');
     
     elementoPai.removeChild(cep);
     elementoPai2.removeChild(endereco);
@@ -142,6 +145,9 @@ entrar.addEventListener("click", (event) => {
     elementoPai7.removeChild(cidade);
     elementoPai8.removeChild(checkbox);
     elementoPai9.removeChild(termos);
+    elementoPai10.removeChild(entrar);
+    const msg = document.getElementById("h6BOL");
+    msg.innerHTML = "Dados enviados, clique em entrar para acessar o Resiliaflix";
     
     
   }
