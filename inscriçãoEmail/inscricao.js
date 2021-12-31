@@ -17,6 +17,7 @@ function entrarEmail() {
   }
 }
 
+
 const entrar = document.getElementById("btnEntrar");
 entrar.addEventListener("click", (event) => {
   event.preventDefault();
@@ -98,3 +99,5 @@ entrar.addEventListener("click", (event) => {
   
   
 });
+
+

@@ -34,6 +34,7 @@ entrar.addEventListener("click", (event) => {
   }
 
   if ( senha.value.length >= 5 == true && email.value.indexOf("@", ".") >= 0 == true ) {
+    
     window.location.replace("./filmes.html");
   }
 });
