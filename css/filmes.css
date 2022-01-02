@@ -1,0 +1,164 @@
+body {
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.background-filmes {
+    background-image: url(../img/background-filmes.jpeg);
+    width: 100%;
+    height: 500px;
+    background-repeat: repeat;
+    background-size: contain;
+    margin-bottom: 60px;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 9px solid #03fcff;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.header_logo {
+    margin-top: 25px;
+    
+}
+
+.texto {
+    padding-top: 10%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    
+    
+}
+
+.categorias {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color:#03fcff;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+#todosFilmes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-family:monospace;
+    
+
+}
+
+.img{
+    border: none;
+
+}
+
+
+.card {
+    
+    border-radius: 20px;
+    text-align: center;
+    margin: 2vh;
+    
+}
+
+.img {
+    width: 200px;
+    height:333px;
+    border-radius: 10px;
+    margin-top: 3%;
+    transition: 0.4s;
+    
+}
+
+.nomeFilme {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+
+/* .categorias:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.699);
+    transition: 1s;
+} */
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+
+#pe{
+    background: rgb(19, 18, 18);
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+    margin-top: 10%;
+}
+
+#logoPe{
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+}
+.pPe{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+    color:white;
+}
+
+#search{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 38px;
+    background-color:  #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+ 
+}
+.entrar{
+    display: flex;
+}
+
+
+
+.pesquisar {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        height: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        width: 100px;
+        background-color:  #03fcff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+}
+
+.pesquisar:hover{
+    background-color:  #ffd104;
+    color: #000;
+}
+
