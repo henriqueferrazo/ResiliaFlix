@@ -30,7 +30,7 @@ body{
     margin-left: 50px;
 }
 #sobrnome{
-    width: 550px;
+    width: 375px;
     height: 55px;
     margin-left: 80px;
 }
@@ -44,13 +44,13 @@ body{
     margin-left: 50px;
 }
 #celular{
-    width: 550px;
+    width: 375px;
     height: 55px;
     margin-top: 33px;
     margin-left: 80px;
 }
 .texto{
-    margin-left: 600px;
+    margin-left: 375px;
     font-family:'DM Mono', monospace;
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.5px;
@@ -84,4 +84,8 @@ body{
 .texto{
     margin-left: 20px;
     color: #000;
+}
+
+.row{
+    margin-left: 60px;
 }
