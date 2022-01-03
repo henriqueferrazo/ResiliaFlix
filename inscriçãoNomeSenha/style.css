@@ -9,7 +9,7 @@ body{
 }
 .bnt{
     display: flex;
-    padding-left: 300px;
+    padding-left: 180px;
 }
 .container{
     padding-top: 200px;
@@ -75,8 +75,8 @@ body{
 .btaoEnviar{
     text-align: center;
 }
-#logoPe{
+/* #logoPe{
     text-align: center;
     width: 200px;
     height: 20px;
-}
+} */

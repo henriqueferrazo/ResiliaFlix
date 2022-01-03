@@ -14,13 +14,14 @@ body {
 }
 .bnt {
     display: flex;
-    padding-left: 300px;
+    padding-left: 180px;
 }
 .error{
     font-size: 12px;
     color: crimson;
     text-align: center;
     font-family:'Lato', sans-serif;;
+    
 }
 .error:focus{
     outline: none;
@@ -166,3 +167,4 @@ body {
     border-radius: 0.4em;
     padding: 5px;
 }
+
